@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "အဖွင့်",
+    "about": "ကျွန်တော်အကြောင်း",
+    "projects": "ပရောဂျက်များ",
+    "certificates": "စာလယာတိမ်များ",
+    "mails": "မေးလ်များ",
+    "github": "GitHub",
+    "organizations": "အဖွဲ့အစည်းများ",
+    "lovable": "Lovable WPA",
+    "apps": "ကျွန်တော်ရေး Appများ",
+    "contact": "ထိပ်ပေါ်ချ"
+  },
+  "hero": {
+    "title": "Android Senior Developer",
+    "subtitle": "Kotlin | Jetpack Compose | MVVM | Clean Architecture",
+    "description": "မြန်မာနိုင်ငံတွင်ရှိသော Android နှင့် Flutter Developer၊ ဗမာနှင့်အင်္ဂလိပ်ဘာသာနှစ်မျိုးလုံးစေ့စေ့ပြောနိုင်"
+  },
+  "about": {
+    "title": "ကျွန်တော်အကြောင်း",
+    "bio": "ကျွန်တော်က Kotlin, Jetpack Compose နှင့် ခေတ်မီ Android architecture patterns တွေကိုအသုံးပြုပြီး production-ready mobile applications တွေကိုဖွဲ့စည်းနေတဲ့ Senior Android Developer တစ်ယောက်ပါ။"
+  },
+  "tech_focus": {
+    "title": "Technical Focus",
+    "roles": [
+      "Android Developer | Kotlin | Jetpack Compose | MVVM | Clean Architecture",
+      "Android Engineer | Kotlin, Coroutines, Room, Retrofit, Dagger/Hilt",
+      "Android Developer | Jetpack Compose, Material 3, Firebase, CI/CD",
+      "Android Developer | Native Android, Modular Architecture, Performance Optimization",
+      "Android Engineer | Kotlin Multiplatform (KMM) | Android | Backend Integration"
+    ]
+  },
+  "certificates": {
+    "title": "စာလယာတိမ်များ",
+    "subtitle": "Professional certifications နှင့် achievements"
+  },
+  "mails": {
+    "title": "မေးလ်များ",
+    "subtitle": "Professional email communications နှင့် acknowledgments"
+  },
+  "lovable": {
+    "title": "Lovable WPA Links",
+    "subtitle": "Web Platform Application collections"
+  },
+  "github": {
+    "title": "GitHub Collections",
+    "subtitle": "Open source contributions နှင့် projects",
+    "view_profile": "Profile ကြည့်"
+  },
+  "organizations": {
+    "title": "အဖွဲ့အစည်းများ",
+    "subtitle": "Professional organizations နှင့် communities"
+  },
+  "apps": {
+    "title": "ကျွန်တော်ရေး App Collection",
+    "subtitle": "ဖွဲ့စည်းထားသော Android နှင့် Flutter applications",
+    "view_code": "Code ကြည့်",
+    "download": "Download",
+    "live_demo": "Live Demo"
+  },
+  "features": {
+    "title": "Features",
+    "smooth_scroll": "Smooth Scroll + UX Enhancement",
+    "performance": "Performance Optimization",
+    "animated_about": "Advanced About Section (Animated + Timeline)",
+    "burmese_support": "Burmese Language Support"
+  }
+}
