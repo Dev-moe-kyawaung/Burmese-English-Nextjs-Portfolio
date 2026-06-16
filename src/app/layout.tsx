@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import '@/i18n/config';
+import './globals.css';
 
 export const metadata: Metadata = {
   title: {
