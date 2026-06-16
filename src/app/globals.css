@@ -1,3 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Myanmar:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --background: 15 23 42;
+  --foreground: 248 250 252;
+
+  --card: 17 24 39;
+  --card-foreground: 248 250 252;
+
+  --muted: 30 41 59;
+  --muted-foreground: 148 163 184;
+
+  --primary: 37 99 235;
+  --primary-foreground: 255 255 255;
+
+  --secondary: 30 64 175;
+  --secondary-foreground: 255 255 255;
+
+  --accent: 59 130 246;
+  --accent-foreground: 255 255 255;
+
+  --border: 37 99 235 / 0.2;
+  --ring: 59 130 246;
+
+  --radius: 1rem;
+
+  --font-sans: 'Inter', 'Noto Sans Myanmar', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-myanmar: 'Noto Sans Myanmar', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  border-color: rgb(var(--border));
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.35);
+  color: #fff;
+}
+
+a {
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Utility tokens */
+@layer utilities {
+  .font-myanmar {
+    font-family: var(--font-myanmar);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-24;
+  }
+
+  .container-width {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .glass-card {
+    background: rgba(15, 23, 42, 0.72);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(37, 99, 235, 0.18);
+    border-radius: 1rem;
+  }
+
+  .nav-link {
+    @apply rounded-full px-3 py-1 text-sm text-slate-200 transition;
+  }
+
+  .nav-link-active {
+    @apply bg-blue-600 text-white shadow-lg shadow-blue-600/20;
+  }
+
+  .nav-link-inactive {
+    @apply hover:bg-white/5 hover:text-blue-400;
+  }
+
+  .section-anchor {
+    scroll-margin-top: 6rem;
+  }
+}
+
+/* Burmese text tuning */
+:lang(my) {
+  font-family: var(--font-myanmar);
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+}
+
+/* Smooth performance hints */
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+main {
+  overflow-x: hidden;
 }
