@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "mails": "Mails",
+    "github": "GitHub",
+    "organizations": "Organizations",
+    "lovable": "Lovable WPA",
+    "apps": "My Apps",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Android Senior Developer",
+    "subtitle": "Kotlin | Jetpack Compose | MVVM | Clean Architecture",
+    "description": "Proficient Android & Flutter Developer based in Myanmar, fluent in Burmese and English"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "I'm a Senior Android Developer with extensive experience in building production-ready mobile applications using Kotlin, Jetpack Compose, and modern Android architecture patterns."
+  },
+  "tech_focus": {
+    "title": "Technical Focus",
+    "roles": [
+      "Android Developer | Kotlin | Jetpack Compose | MVVM | Clean Architecture",
+      "Android Engineer | Kotlin, Coroutines, Room, Retrofit, Dagger/Hilt",
+      "Android Developer | Jetpack Compose, Material 3, Firebase, CI/CD",
+      "Android Developer | Native Android, Modular Architecture, Performance Optimization",
+      "Android Engineer | Kotlin Multiplatform (KMM) | Android | Backend Integration"
+    ]
+  },
+  "certificates": {
+    "title": "Certificate Collections",
+    "subtitle": "Professional certifications and achievements"
+  },
+  "mails": {
+    "title": "Mail Collections",
+    "subtitle": "Professional email communications and acknowledgments"
+  },
+  "lovable": {
+    "title": "Lovable WPA Links",
+    "subtitle": "Web Platform Application collections"
+  },
+  "github": {
+    "title": "GitHub Collections",
+    "subtitle": "Open source contributions and projects",
+    "view_profile": "View Profile"
+  },
+  "organizations": {
+    "title": "Organizations",
+    "subtitle": "Professional organizations and communities"
+  },
+  "apps": {
+    "title": "My Create App Collection",
+    "subtitle": "Android and Flutter applications I've built",
+    "view_code": "View Code",
+    "download": "Download",
+    "live_demo": "Live Demo"
+  },
+  "features": {
+    "title": "Features",
+    "smooth_scroll": "Smooth Scroll + UX Enhancement",
+    "performance": "Performance Optimization",
+    "animated_about": "Advanced About Section (Animated + Timeline)",
+    "burmese_support": "Burmese Language Support"
+  }
+}
