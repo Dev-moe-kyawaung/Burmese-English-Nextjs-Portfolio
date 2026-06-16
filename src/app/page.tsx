@@ -6,10 +6,12 @@ import NavBar from '@/components/NavBar';
 import HeroSection from '@/components/HeroSection';
 import AdvancedAboutSection from '@/components/AdvancedAboutSection';
 import AppsCollection from '@/components/AppsCollection';
+import CertificatesSection from '@/components/CertificatesSection';
+import GitHubSection from '@/components/GitHubSection';
 
 export default function Home() {
   useEffect(() => {
-    // Lenis Smooth Scroll Initialize
+    // Smooth Scroll - Lenis
     const lenis = new Lenis({
       duration: 750,
       inertia: 0.85,
@@ -31,8 +33,10 @@ export default function Home() {
       <HeroSection />
       <AdvancedAboutSection />
       <AppsCollection />
+      <CertificatesSection />
+      <GitHubSection />
       
-      {/* Add more sections: Certificates, Mails, GitHub, Organizations, Lovable */}
+      {/* Add more sections: Mails, Lovable, Organizations */}
     </main>
   );
 }
